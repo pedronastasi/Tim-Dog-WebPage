@@ -1,0 +1,208 @@
+b {
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #FFF;
+
+}
+
+#title {
+    background-color: #ff4c68;
+
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* navigation Bar */
+
+.navbar {
+    padding-bottom: 3.5rem;
+
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {}
+
+/* Downlaod Bottoms */
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+
+/* Title Image */
+
+.title-image {
+    width: 22%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+
+/* Feature Section*/
+
+
+#features {
+    background-color: #FFF;
+    position: relative;
+}
+
+.icon {
+    color: #ef8172;
+    display: inline-block;
+    width: 100%;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+
+
+.feature-box {
+    padding: 8rem 0rem;
+}
+
+.col-features {
+    margin: ;
+}
+
+.description {
+    color: #8f8f8f;
+}
+
+/* Testimonials Section*/
+
+
+#testimonials {
+
+    background-color: #ef8172;
+    color: #FFF;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+.testimonal-image {
+    width: 10%;
+    border-radius: 100%;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+
+/* CTA Section */
+
+#cta {
+    background-color: #ff4c68;
+}
+
+.icon-2 {
+    padding: 1% 1% 1% 1%;
+
+}
+
+
+/* Media Queries */
+
+
+@media (max-width: 1028px) {
+    .title-image {
+        position: static;
+        width: 50%;
+        transform: rotate(0deg);
+
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    .feature-box {
+        padding: 3rem 0rem;
+    }
+
+    .big-heading {
+        font-size: 2.5rem;
+        line-height: 1.5;
+        color: #FFF;
+    }
+
+    .navbar{
+        padding-bottom: 1.5rem;
+    }
+
+    .testimonial-text {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    
+    }
+    .section-heading {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+}
